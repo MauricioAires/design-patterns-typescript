@@ -1,0 +1,8 @@
+export default class Token {
+  private token =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlBhcmFiw6lucyBwZWxhIGN1cmlvc2lkYWRlIGVtIGRlY29kaWZpY2FyIGVzc2UgdG9rZW4gbWUgbWFuZGEgdW1hIG1lbnNhZ2VtIG5vIGxpbmtlZGluIHF1ZSBldSB0ZSBtYW5kbyB1bSBwaXggZGUgNSByZWFpcywgbWFzIGlzc28gYXBlbmFzIHBhcmEgYSBwcmltZWlyYSBwZXNzb2EiLCJpYXQiOjE1MTYyMzkwMjJ9.shk466EQ0ABJrw8mT7OQ4qfo68NwWgs0wurYcj17ZWI';
+
+  getToken(): string {
+    return this.token;
+  }
+}
